@@ -4,7 +4,7 @@ exports.handler = function (event, context, callback) {
 	request = JSON.stringify(event.body)
 	kinesis.putRecord({
 		Data: request,
-		PartitionKey: '0',
+		PartitionKey: '2',
 		StreamName: 'KTestPut'
 	}).promise()
 		.then(data => {
