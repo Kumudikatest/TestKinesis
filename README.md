@@ -1,0 +1,2 @@
+# TestKinesis
+As a resource
